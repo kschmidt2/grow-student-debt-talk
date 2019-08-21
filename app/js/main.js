@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
             text: null
         },
         data: {
-            googleSpreadsheetKey: '1SbtPXvV_DzA9DVdcawFB9h-Rr8wNXaJVyQoaP01nuLM'
+            googleSpreadsheetKey: '1SbtPXvV_DzA9DVdcawFB9h-Rr8wNXaJVyQoaP01nuLM',
+            googleSpreadsheetWorksheet: 2
         },
         // for bar charts only
         plotOptions: {
@@ -57,7 +58,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 useHTML: true,
                 overflow: 'allow'
             },
-            tickAmount: 5
+            tickAmount: 4,
+            max: 45
         },
         credits: {
             enabled: false
